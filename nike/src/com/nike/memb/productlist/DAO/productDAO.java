@@ -6,4 +6,5 @@ import com.nike.memb.productlist.DTO.productDTO;
 
 public interface productDAO {
 public List<productDTO> getproductlist();
+public productDTO read(String code) throws Exception;
 }

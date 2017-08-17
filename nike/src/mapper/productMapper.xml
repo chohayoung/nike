@@ -4,4 +4,10 @@
 <select id="onlist" resultType="com.nike.memb.productlist.DTO.productDTO">
 select * from productlist
 </select>
+
+<!--03. 게시글 상세보기 조회 -->
+<select id="view" resultType="com.nike.memb.productlist.DTO.productDTO">
+        SELECT * FROM productlist 
+        WHERE code = #{code}
+    </select>
 </mapper>

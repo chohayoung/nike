@@ -20,4 +20,10 @@ public class productImplService implements productService {
 		return productDAO.getproductlist();
 	}
 
+	// 02. 게시글 상세보기
+	    @Override
+	    public productDTO read(String code) throws Exception {
+	        return productDAO.read(code);
+	    }
+
 }

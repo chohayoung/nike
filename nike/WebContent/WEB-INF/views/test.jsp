@@ -76,7 +76,8 @@
        <C:forEach var='product' items='${list}'>
        <C:set var='i' value='${i+1 }'/>
          <ul>
-          <li><a href="#"><img id="_NK31093885_AH3378-104_" src="./resources/images/${product.image}" alt="나이키 시티 포토 티 ‘SEOUL’"></a></li>
+          <li><a href="${path}/nike/detail?code=${product.code}">
+          <img id="_NK31093885_AH3378-104_" src="./resources/images/${product.image}" alt="나이키 시티 포토 티 ‘SEOUL’"></a></li>
            <li class="color">
            <a href="#"><span style="background:#222">1</span></a>
            <a href="#"><span style="background:#ee2929">2</span></a>
