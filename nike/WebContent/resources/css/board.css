@@ -1,0 +1,24 @@
+#ct{
+   width: 1100px;
+   height: 800px;
+   margin : 0 auto;
+}
+.title{
+    text-align: center;
+}
+.place{
+     padding: 30px;
+}
+.place table{
+   width: 600px;
+   margin: 0 auto;
+   background-color: white;
+}
+/*게시글 검색*/
+#board_search{
+    text-align: center;
+}
+/*게시글 갯수*/
+#writeSum{
+    text-align: center;
+}

@@ -1,0 +1,129 @@
+@import url(../css/common.css);
+
+/********************************************/
+#ctWrap{
+    margin: 0 auto;
+    width: 1100px;
+    height: 480px;
+}
+.page_title{
+    font-size: 24px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.gb-join-wrap .join-form {
+    margin-top: 55px;
+    margin-bottom:30px;
+}
+
+.gb-join-wrap .gb_login_label + input {
+    margin-bottom: 9px;
+    padding: 10px 15px;
+    width: 480px;
+    height: 42px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: 'Malgun Gothic', 'NanumGothic', sans-serif;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+.join-form dl dt {
+    text-align: left;
+    margin-left: 238px;
+    float: left;
+    width: 145px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #111;
+}
+/*개인정보 보관 기관*/
+.private-period{
+    margin-top: 100px;
+    width: 100%;
+    height: 390px;
+    border: 1px solid #e5e5e5;
+}
+.title{
+    padding: 12px;
+    margin: 0 auto;
+    background-color: #e5e5e5;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+.pp-comment{
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+/*1년/3년/영구보관*/
+
+.btn-area li input[type="radio"] {
+    display: block;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+.btn-area li input[type="radio"]:checked + label:before {
+  color: red;
+  content: "\2713";
+  padding: 5px;
+}
+.btn-area li input[type="radio"]:checked + label{
+  font-weight: 600;
+  color: #808088;
+}
+
+.btn-area{
+    width: 510px;
+    margin: 0 auto;
+    height: 135px;
+}
+.btn_type {
+    display: block;
+    padding: 10px;
+    border: 1px solid #bebfbf;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+label {
+    cursor: pointer;
+}
+.terms-agree{
+    margin-top: 40px;
+    
+}
+.gb-join-wrap .terms-agree .title-chk-all {
+    padding: 15px 20px;
+    background: #e5e5e5;
+    text-align: center;
+}
+
+.gb-join-wrap .terms-agree ul {
+    padding: 10px 20px 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+}
+.necessary{
+    color: #dc0e0e;
+}
+._2_last{
+    color: #39405a
+}
+.gb-btn-area{
+    padding: 30px;
+    text-align: center;
+}
+.btn{
+    width: 154px;
+    height: 50px;
+    background-color: #2d2d2d;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+/********************************************/

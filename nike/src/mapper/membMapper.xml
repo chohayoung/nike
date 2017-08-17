@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="memb">
+	<!-- 회원가입 -->
+	<insert id="ins" parameterType="com.nike.memb.membVO.membVO">
+		insert into memb(id,
+		pw,name,email,address,tel,point,reg_date,grade,storageperiod)
+		values(#{id},#{pw},#{name},#{email},#{address},#{tel},100,sysdate,'일반회원',sysdate+#{storageperiod})
+	</insert>
+
+	<select id="loginCheck" resultType="String">
+		select name from memb where
+		id=#{id} and pw=#{pw}
+	</select>
+
+	<select id="joiningCheck" resultType="String">
+		select id from memb where
+		id=#{id}
+	</select>
+
+	<select id="viewMember" resultType="com.nike.memb.membVO.membVO">
+		SELECT
+		name,id,email,reg_date, address, tel
+		FROM memb WHERE id = #{id} AND pw
+		= #{pw}
+	</select>
+	<update id="updateMember" parameterType="java.util.HashMap">
+		update memb set
+		name =
+		#{name}, pw = #{pw},
+		email = #{email}, address = #{address}, tel =
+		#{tel}
+		where id = #{id}
+	</update>
+	<select id="selectOne" parameterType="String" resultType="java.util.HashMap">
+		select
+		* from memb where id = #{id}
+	</select>
+	<select id="selectAll" resultType="java.util.HashMap">
+		select * from memb
+	</select>
+
+</mapper>

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/board=UTF-8
+encoding//WebContent/WEB-INF/views/detail.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/index.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/member=UTF-8
+encoding//WebContent/WEB-INF/views/member/footermember.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/member/joining.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/member/login.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/member/topmember.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/productlist.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/top.jsp=UTF-8

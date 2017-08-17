@@ -1,0 +1,187 @@
+#sidebar{
+   background:#fff;
+   width:260px;   
+   padding:13px 0 0 30px;
+   height:1400px;
+   border-right:1px solid #eee;
+/*   float: left;*/
+}
+.men{
+    color: #4c4c4c;
+    font-size:28px;
+    text-shadow:2px 2px 2px #b5b5b5;
+    padding:20px 0 10px 0;
+}
+#sidebar h3{
+   color:#262626;
+   font-size:15px;
+   font-weight:700;
+   padding:20px 0 10px 0;
+   letter-spacing:1px;
+   clear:both;
+}
+
+#sidebar .checklist{
+   padding:0;
+   margin-top: 20px;
+}
+
+.checklist ul li{   
+   font-size:14px;
+   font-weight:400;
+   list-style:none;
+   padding: 7px 0 7px 0;
+}
+.checklist ul li a:hover{
+    text-decoration: none;
+    color: #1466d0
+}
+.checklist li span{
+   float:left;
+   width:11px;
+   height:11px;
+   margin-left:-22px;
+   margin-top:4px;
+   border: 1px solid #d1d3d7;
+   position:relative;   
+}
+
+.colors ul, .sizes ul{
+   float:left; width:130px;   
+}
+/* .colors ul li{padding-left:21px;} */
+
+.colors input{
+   display:none;
+}
+.colors input+label{
+   display:inline-block;
+}
+.colors input+label:before{
+   content: ' ';
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    line-height: 21px; /* 세로정렬을 위해 높이값과 일치 */
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #cacece;
+    border-radius : 3px;
+}
+/* Button check color */
+.colors #Black[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+    content: '\2714';
+    color: Black; 
+}
+.colors #Red[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+    content: '\2714';
+    color: Red; 
+}
+.colors #Yellow[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+    content: '\2714';
+    color: Yellow; 
+}
+.colors #Green[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+    content: '\2714';
+    color: Green; 
+}
+.colors #Pink[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+    content: '\2714';
+    color: Pink; 
+}
+.colors #White[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+    content: '\2714';
+    color: Black; 
+}
+.colors #Gray[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+    content: '\2714';
+    color: Gray; 
+}
+.colors #Orange[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+    content: '\2714';
+    color: Orange; 
+}
+.colors #Purple[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+    content: '\2714';
+    color: Purple; 
+}
+.colors #Navy[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+    content: '\2714';
+    color: Navy; 
+}
+.size ul{
+    float: left;
+    width: 130px;
+    line-height: 25px;
+}
+.size input { /* 실제 체크박스는 화면에서 숨김 */
+    display: none;
+} 
+.size input+ label {
+    display: inline-block;
+ } 
+.size input + label:before { /* 가짜 체크박스 */ 
+    content: ' ';
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    line-height: 21px; /* 세로정렬을 위해 높이값과 일치 */
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #cacece;
+    border-radius : 3px;
+} 
+ .size input[type="checkbox"]:checked + label:before { /* 체크박스를 체크했을때 */ 
+    content: '\2714';
+    color: red; 
+}
+/*---------------------------------------------------------------------------*/
+
+#productCenter{
+    position: absolute;
+    top:190px;
+    left: 410px;
+    width: 1100px;
+    height: 400px;
+}
+#Categoryin h1{
+	font-size:28px;
+	margin-bottom:50px;
+}
+
+/* CENTER  */
+#Categoryin ul{
+    top:0;
+    left:0;
+    display: block;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 30px;
+    float:left;
+}
+#Categoryin ul:hover{
+    border: 1px solid #9b9996;
+}
+#Categoryin ul li{
+    line-height: 24px;
+}
+#Categoryin .color{
+    width: 100%;
+    height: 12px;
+}
+#Categoryin .product_name{
+    font-weight: 600;
+}
+#Categoryin .color span{
+    width:11px;
+    height:11px;
+    border-radius:100%;
+    margin-left: 6px;
+}
+#Categoryin .price{
+    color: #9f2121
+}
