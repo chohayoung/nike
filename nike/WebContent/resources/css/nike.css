@@ -73,7 +73,7 @@ header{
    background-color: #282727;
    width:300px;height:150px;
    border:1px solid #636363;
-   
+   z-index:9999;
 }
 #nav li{
     line-height: 20px;

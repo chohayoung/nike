@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/nike.css">
     <link rel="stylesheet" href="../css/joining.css">
+    <link rel="stylesheet" href="../css/login.css" />
     <link rel="stylesheet" href="../css/jquery.bxslider.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/jquery-1.12.1.min.js"></script>
@@ -41,7 +42,7 @@
 }
 </style>
 
-<body>
+<body style="overflow-x:hidden;overflow-y:auto">
 <!--    wrap   -->
 
 <!--*  1. header  *-->
@@ -69,9 +70,10 @@
 <div>
     <p class="all"><a href="#"><img src="../images/allmenu_icon.png" alt="전체메뉴아이콘"></a></p>
     <ul id="nav">
+
         <li><a href="../board/list.do">게시판</a></li>
-        <li><a href="#">임시메뉴1</a></li>
-        <li><a href="#">임시메뉴2</a></li>
+        <li><a href="../product">상품 목록</a></li>
+        <li><a href="../test">test</a></li>
         <li><a href="#">임시메뉴3</a></li>  
     </ul>
     <ul class="mainMenu">
@@ -80,7 +82,7 @@
        <li><a href="#">BOYS</a></li>
        <li><a href="#">GIRLS</a></li> 
     </ul>
-    <form  id="search" method="get" action="search">
+ 	<form  id="search" method="get" action="search">
     <input type="text" size="20" placeholder="THE DRAW">
     </form>
 </div>

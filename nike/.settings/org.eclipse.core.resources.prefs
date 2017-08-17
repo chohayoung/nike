@@ -3,6 +3,7 @@ encoding//WebContent/WEB-INF/views/board=UTF-8
 encoding//WebContent/WEB-INF/views/detail.jsp=UTF-8
 encoding//WebContent/WEB-INF/views/index.jsp=UTF-8
 encoding//WebContent/WEB-INF/views/member=UTF-8
+encoding//WebContent/WEB-INF/views/member/complete.jsp=UTF-8
 encoding//WebContent/WEB-INF/views/member/footermember.jsp=UTF-8
 encoding//WebContent/WEB-INF/views/member/joining.jsp=UTF-8
 encoding//WebContent/WEB-INF/views/member/login.jsp=UTF-8

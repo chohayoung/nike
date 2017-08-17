@@ -50,36 +50,6 @@
     </ul>
 </c:otherwise>
 </c:choose>
-<div id="loginbox" class="login_popup">
-<a href="#" class="close"><img src="images/close_pop.png" alt="Close"/></a>
-
-    <form name="form1" method="post">
-        <table>
-            <tr>
-                <td>아이디 :</td>
-                <td><input name="userId" id="userId"></td>
-            </tr>
-            <tr>
-                <td>패스워드 :</td>
-                <td><input type="password" name="userPw" id="userPw"></td>
-            </tr>
-            <tr>
-                <a href="#" id="btnLogin">로그인
-                <c:if test="${msg == 'failure'}">
-                    <div style="color: red">
-                                            아이디 또는 비밀번호가 일치하지 않습니다.
-                    </div>
-                </c:if>
-                <c:if test="${msg == 'logout'}">
-                    <div style="color: red">
-                                             로그아웃되었습니다.
-                    </div>
-                </c:if>
-                </a>
-            </tr>
-        </table>
-    </form>
-</div>
 </div>
 <div id="hWrap">
 <header>

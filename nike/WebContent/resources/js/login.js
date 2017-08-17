@@ -23,33 +23,3 @@
     });
    
    
-   $(function() { //닫기버튼
-	$('.close').click(function(){
-		var loginBox = $('#loginbox');
-		$(loginBox).fadeIn(300);
-		var popTop = ($(loginBox).height() + 100) / 2; 
-		var popLeft = ($(loginBox).width() + 100) / 2; 
-		$(loginBox).css({ 
-			'margin-top' : -popTop,
-			'margin-left' : -popLeft
-		});
-		// Add the mask to body
-		$('body').append('<div id="mask"></div>');
-		$('#mask').fadeIn(300);
-		return false;
-	});
-	
-   });
-   
-   
-   
-   
-   
-   
-	// When clicking on the button close or the mask layer the popup closed
-	$('a.close, #mask').live('click', function() { 
-		  $('#mask , .login-popup').fadeOut(300 , function() {
-			$('#mask').remove();  
-		}); 
-		return false;
-		});
