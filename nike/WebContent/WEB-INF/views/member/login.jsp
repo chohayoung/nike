@@ -5,6 +5,7 @@
 <%@ include file="topmember.jsp" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<!-- 메로롱 -->
 <script>
     $(function(){
     	$("#btnLogin").click(function(){
