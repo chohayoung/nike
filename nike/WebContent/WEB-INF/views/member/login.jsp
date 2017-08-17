@@ -43,19 +43,20 @@
                 <td><input type="password" name="userPw" id="userPw"></td>
             </tr>
             <tr>
-                <td  colspan="2" align="center">
-                 <a id="btnSpace" href="joining">아직 NIKE 회원이 아니세요?</a>
-                    <button type="button" id="btnLogin">로그인</button>
-                <c:if test="${msg == 'failure'}">
-                    <div style="color: red">
+        
+                 <td  colspan="2" align="center">
+                      <c:if test="${msg == 'failure'}">
+                    <p style="color: red;margin-top:10px;">
                         아이디 또는 비밀번호가 일치하지 않습니다.
-                    </div>
+                    </p>
                 </c:if>
                 <c:if test="${msg == 'logout'}">
-                    <div style="color: red">
+                    <p style="color: red;margin-top:10px;">
                         로그아웃되었습니다.
-                    </div>
+                    </p>
                 </c:if>
+                 <a id="btnSpace" href="joining">아직 NIKE 회원이 아니세요?</a>
+                    <button type="button" id="btnLogin">로그인</button>
                 </td>
             </tr>
             
