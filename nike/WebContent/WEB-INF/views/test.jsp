@@ -78,16 +78,16 @@
          <ul>
           <li><a href="#"><img id="_NK31093885_AH3378-104_" src="./resources/images/${product.image}" alt="나이키 시티 포토 티 ‘SEOUL’"></a></li>
            <li class="color">
-           <a href="#"><span style="background:#222"></span></a>
-           <a href="#"><span style="background:#ee2929"></span></a>
-           <a href="#"><span style="background:#ffe65b"></span></a>
+           <a href="#"><span style="background:#222">1</span></a>
+           <a href="#"><span style="background:#ee2929">2</span></a>
+           <a href="#"><span style="background:#ffe65b">3</span></a>
            </li>
            <li class="product_name"><a href="#"><c:out value='${product.name}'></c:out></a></li>
            <li><c:out value='${product.category}'></c:out></li>
           <li class="price"><c:out value='${product.price}'></c:out></li>
-         </ul>
-         </C:forEach>
-       </div>
+        </ul>
+        </C:forEach>
+        </div>
       </div>
 </div>
 
